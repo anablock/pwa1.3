@@ -1,0 +1,46 @@
+[debug] [2019-07-07T15:37:16.969Z] ----------------------------------------------------------------------
+[debug] [2019-07-07T15:37:16.971Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2019-07-07T15:37:16.971Z] CLI Version:   7.0.2
+[debug] [2019-07-07T15:37:16.971Z] Platform:      darwin
+[debug] [2019-07-07T15:37:16.971Z] Node Version:  v11.0.0
+[debug] [2019-07-07T15:37:16.972Z] Time:          Sun Jul 07 2019 08:37:16 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-07-07T15:37:16.972Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-07T15:37:16.985Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-07T15:37:16.986Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/vukdukic/projects/anablock/pwa1.3
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-07-07T15:37:16.993Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-07-07T15:37:16.993Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-07-07T15:37:17.246Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-07T15:37:17.272Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2019-07-07T15:37:17.841Z] <<< HTTP RESPONSE 200
+[info] i  Using project anablock-e0d92 (anablock)
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-07-07T15:44:06.681Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-07-07T15:44:06.824Z] <<< HTTP RESPONSE 200
