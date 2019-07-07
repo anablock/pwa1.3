@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+import { BrowserRouter as Router, 
+          Switch,
+          Route, 
+          Link,
+          Redirect 
+        } from "react-router-dom";
 import Header from './Header';
 import ChatContainer from './ChatContainer';
 import './App.css';
