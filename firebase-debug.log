@@ -1,0 +1,25 @@
+[debug] [2019-07-07T16:45:15.449Z] ----------------------------------------------------------------------
+[debug] [2019-07-07T16:45:15.451Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-07-07T16:45:15.452Z] CLI Version:   7.0.2
+[debug] [2019-07-07T16:45:15.452Z] Platform:      darwin
+[debug] [2019-07-07T16:45:15.452Z] Node Version:  v11.0.0
+[debug] [2019-07-07T16:45:15.452Z] Time:          Sun Jul 07 2019 09:45:15 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-07-07T16:45:15.453Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-07T16:45:15.463Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-07T16:45:15.463Z] > authorizing via signed-in user
+[debug] [2019-07-07T16:45:15.464Z] [iam] checking project anablock-e0d92 for permissions ["firebase.projects.get"]
+[debug] [2019-07-07T16:45:15.465Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/anablock-e0d92:testIamPermissions  
+
+[debug] [2019-07-07T16:45:15.802Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-07T16:45:15.804Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/anablock-e0d92  
+ 
+[debug] [2019-07-07T16:45:16.464Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/vukdukic/projects/anablock/pwa1.3'...
+[info] 
+[debug] [2019-07-07T16:45:16.466Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/490834202806/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-07T16:45:16.851Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
